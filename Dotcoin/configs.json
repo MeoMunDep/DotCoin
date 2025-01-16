@@ -5,5 +5,6 @@
   "howManySpins": 5,
   "howManyMultiTaps": 1,
   "howManyDailyAttemps": 0,
-  "bettingCoin": 15000
+  "bettingCoin": 15000,
+  "delayEachAccount": [1, 81]
 }

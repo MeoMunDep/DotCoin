@@ -35,15 +35,16 @@ create_default_configs() {
   "country_time": "en-US",
   "howManySpins": 5,
   "howManyMultiTaps": 1,
+  "howManyTicketsFactory": 1,
   "howManyDailyAttemps": 0,
   "bettingCoin": 15000,
-  "delayEachAccount": [1, 81]
+  "delayEachAccount": [1, 1]
 }
 EOL
 }
 
 check_configs() {
-    if ! node -e "const cfg=require('./configs.json');if(typeof cfg.howManyAccountsRunInOneTime !== 'number' || cfg.howManyAccountsRunInOneTime < 1) throw new Error('Invalid config');" 2>/dev/null; then
+    if ! node -e "const cfg=require('./configs.json');if(typeof cfg.limit !== 'number' || cfg.limit < 1) throw new Error('Invalid config');" 2>/dev/null; then
         print_red "Invalid configuration detected. Resetting to default values..."
         create_default_configs
         print_green "Configuration reset completed."

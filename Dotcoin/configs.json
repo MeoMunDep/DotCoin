@@ -4,7 +4,8 @@
   "country_time": "en-US",
   "howManySpins": 5,
   "howManyMultiTaps": 1,
+  "howManyTicketsFactory": 1,
   "howManyDailyAttemps": 0,
   "bettingCoin": 15000,
-  "delayEachAccount": [1, 81]
+  "delayEachAccount": [1, 1]
 }

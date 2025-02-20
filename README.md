@@ -48,11 +48,11 @@ Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257
   "country_time": "en-US",
   "howManySpins": 5,
   "howManyMultiTaps": 1,
+  "howManyTicketsFactory": 1,
   "howManyDailyAttemps": 0,
   "bettingCoin": 15000,
-  "delayEachAccount": [1, 81]
+  "delayEachAccount": [1, 1]
 }
-
 ```
 
 ### 2. `datas.txt` 🗂️ - Get data from [here](https://t.me/KeoAirDropFreeNe/257/6879).

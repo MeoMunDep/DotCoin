@@ -1,11 +1,11 @@
 {
-  "limit": 100,
-  "countdown": 300,
+  "countdown":3001,
   "country_time": "en-US",
   "howManySpins": 5,
   "howManyMultiTaps": 1,
   "howManyTicketsFactory": 1,
   "howManyDailyAttemps": 0,
   "bettingCoin": 15000,
-  "delayEachAccount": [1, 1]
+  "delayEachAccount": [1, 1],
+  "howManyAccountsRunInOneTime": 200
 }

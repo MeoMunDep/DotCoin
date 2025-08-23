@@ -1,0 +1,1 @@
+console.log(`Game server is broken, please wait for another version...`)

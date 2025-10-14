@@ -1,1 +1,1 @@
-console.log(`Game server is broken, please wait for another version...`)
+console.log(`Stop updating this game, please choose another scripts!`)
